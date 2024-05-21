@@ -1,12 +1,14 @@
-# My Prime Number Checker
-# =======================
-#
-# This script checks if a given number is prime.
+# Prime Number Checker
+# ======================
+"""
+This script checks if a given number is prime. 
+It defines a function, is_prime(), that takes an integer as input and returns True if the number is prime, and False otherwise. 
+The function uses a simple algorithm to check if the number is divisible by any integer up to its square root. 
+The script then asks the user for a number and checks if it's prime, printing a message accordingly. """
 
-# It uses a simple calculation to check
-
-#Author: Ibrahim Yisau
+# Author: Ibrahim Yisau
 # Date: 21-May-2024
+
 
 def is_prime(n):  # Define a function to check if a number is prime
 # Check if the number is less than or equal to 1
